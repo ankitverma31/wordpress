@@ -1,6 +1,7 @@
 <?php
 
 // Setup
+define('AN_DEV_MODE', true);
 
 // Includes
 include( get_theme_file_path( '/includes/client/enqueue.php' ) );
