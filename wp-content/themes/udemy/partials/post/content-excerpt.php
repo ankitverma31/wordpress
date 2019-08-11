@@ -1,7 +1,7 @@
 <div class="entry clearfix">
 <div class="entry-image">
     <a href="#">
-    <img class="image_fade" src="images/blog/standard/17.jpg">
+    <?php the_post_thumbnail('full', ['class' => 'image_fade']);?>
     </a>
 </div>
 <div class="entry-title">
