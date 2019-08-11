@@ -27,8 +27,8 @@ function an_enqueue()
 
 
     /**Registering scripts */
-    wp_register_style( 'an_plugins', $uri . '/assets/js/plugins.js', [], $ver, true );
-    wp_register_style( 'an_functions', $uri . '/assets/js/functions.js', [], $ver, true );
+    wp_register_script( 'an_plugins', $uri . '/assets/js/plugins.js', [], $ver, true );
+    wp_register_script( 'an_functions', $uri . '/assets/js/functions.js', [], $ver, true );
 
     /**Adding scripts */
     wp_enqueue_script('jquery');
